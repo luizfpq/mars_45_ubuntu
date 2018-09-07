@@ -32,16 +32,9 @@ sudo sh /opt/Mars/configure_openjdk.sh
 #iniciamos o download do Mars
 sudo axel -n 5 https://github.com/luizfpq/mars_45_ubuntu/blob/master/Mars4_5.jar?raw=true --output=/opt/Mars/Mars4_5.jar --alternate
 sudo chmod +x /opt/Mars/Mars4_5.jar
+#baixando ícone
+sudo axel -n 5 https://raw.githubusercontent.com/luizfpq/mars_45_ubuntu/master/mars.png --output=/opt/Mars/mars.png --alternate
+#baixando atalho para menus do sistema
+sudo axel -n 5 https://raw.githubusercontent.com/luizfpq/mars_45_ubuntu/master/Mars.desktop --output=/usr/share/applications/Mars.desktop --alternate
 
-sudo axel -n 5 https://github.com/luizfpq/mars_45_ubuntu/blob/master/Mars4_5.jar?raw=true --output=/opt/Mars/mars.png --alternate
-
-sudo echo "[Desktop Entry]
-Version=1.0
-Name=Unipro UGENE
-Comment=Unipro UGENE is a cross-platform visual environment for DNA and protein sequence analysis.
-Exec=java -jar /opt/Mars/Mars4_5.jar
-Path=/opt/Mars
-Icon=/opt/Mars/mars.png
-Terminal=false
-Type=Application
-Categories=Utility;Development;" >> /usr/share/applications/Mars.desktop
+echo -e "\t Aproveite seu Mars, ele está disponível no seu menu principal, na categoria desenvolvimento"
