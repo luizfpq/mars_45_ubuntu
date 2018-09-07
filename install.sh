@@ -35,6 +35,7 @@ sudo chmod +x /opt/Mars/Mars4_5.jar
 #baixando ícone
 sudo axel -n 5 https://raw.githubusercontent.com/luizfpq/mars_45_ubuntu/master/mars.png --output=/opt/Mars/mars.png --alternate
 #baixando atalho para menus do sistema
+sudo rm -rf /usr/share/applications/Mars.desktop
 sudo axel -n 5 https://raw.githubusercontent.com/luizfpq/mars_45_ubuntu/master/Mars.desktop --output=/usr/share/applications/Mars.desktop --alternate
 
 echo -e "\n\t Aproveite seu Mars!\n\t Ele está disponível no seu menu principal,\n\t na categoria desenvolvimento"
