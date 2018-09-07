@@ -37,4 +37,4 @@ sudo axel -n 5 https://raw.githubusercontent.com/luizfpq/mars_45_ubuntu/master/m
 #baixando atalho para menus do sistema
 sudo axel -n 5 https://raw.githubusercontent.com/luizfpq/mars_45_ubuntu/master/Mars.desktop --output=/usr/share/applications/Mars.desktop --alternate
 
-echo -e "\t Aproveite seu Mars, ele está disponível no seu menu principal, na categoria desenvolvimento"
+echo -e "\n\t Aproveite seu Mars!\n\t Ele está disponível no seu menu principal,\n\t na categoria desenvolvimento"

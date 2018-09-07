@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
-Name=Unipro UGENE
-Comment=Unipro UGENE is a cross-platform visual environment for DNA and protein sequence analysis.
+Name=Mars 4.5
+Comment=MIPS Assembler and Runtime Simulator
 Exec=java -jar /opt/Mars/Mars4_5.jar
 Path=/opt/Mars
 Icon=/opt/Mars/mars.png
