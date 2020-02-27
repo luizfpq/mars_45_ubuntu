@@ -4,8 +4,8 @@
 
 set -eu -o pipefail # fail on error , debug all lines
 
-sudo -n true
-test $? -eq 0 || exit 1 "Você precisa de privilégios de sudo para execução"
+#sudo -n true
+#test $? -eq 0 || exit 1 "Você precisa de privilégios de sudo para execução"
 
 #echo A instalação necessita dos seguintes requisitos
 while read -r p ; do sudo apt-get install -y $p ; done < <(cat << "EOF"

@@ -10,3 +10,6 @@ assistive_technologies do arquivo accessibility.properties do openjdk.
 A solução mais simples para essa problemática é comentar a linha referente ao parâmetro no arquivo supracitado.
 
 Contudo, para facilitar o uso da aplicação, decidi criar um bash para facilitar a instalação.
+
+uso:
+``./install``
